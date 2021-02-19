@@ -27,7 +27,7 @@ const Home = () => {
            <Fragment key={post._id}>
                {post.type === 'public' ?
                <Segment>
-                   <span className={'badge badge-success'}>{post.type} {' '} {post.date}</span>
+                   <span className={'badge badge-success'}>{post.type} {' '} {post.dateto.DateString()}</span>
                  <Image src={post.image} size='small' floated='left' />
                  <h3>{post.title}</h3>
                  <p>
