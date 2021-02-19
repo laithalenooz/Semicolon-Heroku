@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Semicolon:ndl0G4bFIjIcrhJ4@semicolon.7kypb.mongodb.net/Semicolon?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
