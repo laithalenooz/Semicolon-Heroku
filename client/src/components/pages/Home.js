@@ -28,7 +28,6 @@ const Home = () => {
                {post.type === 'public' ?
                <Segment>
                    <span className={'badge badge-success'}>{post.type} {' '} {post.date}</span>
-                 <Image src={post.image} size='small' floated='left' />
                  <h3>{post.title}</h3>
                  <p>
                     {post.description}
